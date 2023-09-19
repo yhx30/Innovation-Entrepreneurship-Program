@@ -150,7 +150,7 @@ RoPE的公式如下：
 
 具体来说，我们通过计算自适应基数（base）来实现频率的调整，即
 
-alpha=base /(1024−L)
+alpha=base /(1024−1)
 
 base=base ×alpha^(d/(d−2))
 
