@@ -54,7 +54,7 @@ FlashAttention是一种新型的注意力算法，旨在减少对高带宽内存
 
 ## FlashAttention
 
-FlashAttention 的主要思路是尽量使用高速的 SRAM，减少对存取速度慢的 HBM（High Band Memory）的使用。具体来说，FlashAttention 的计算过程如下：
+FlashAttention 的主要思路是尽量使用高速的静态随机存取存储器(SRAM)，减少对存取速度慢的 HBM（High Band Memory）的使用。具体来说，FlashAttention 的计算过程如下：
 
 计算 S = QK^T ∈ R^(N×N)
 
